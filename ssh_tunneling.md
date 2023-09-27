@@ -7,7 +7,7 @@ Connect to the server using the local port forwarding option. This tunnels conne
 ssh -L 6060:localhost:8081 [remote_machine]
 ```
 
-Once connected to the remote machine, start Jupyter Lab (or Notebook) and provide the followign flags. `--no-browser` to suppress the automatic browser Jupyter opens, and `--port` to set the specified port:
+Once connected to the remote machine, start Jupyter Lab (or Notebook) and provide the following flags. `--no-browser` to suppress the automatic browser Jupyter opens, and `--port` to set the specified port:
 
 ```
 jupyter notebook --no-browser --port=8081
